@@ -4,6 +4,10 @@ target/
 !**/src/main/**
 !**/src/test/**
 
+### System ###
+*.DS_Store
+*Thumbs.db
+
 ### STS ###
 .apt_generated
 .classpath
