@@ -38,17 +38,21 @@ Date: Thu, 12 Sep 2019 14:40:53 GMT
 ETag: W/"18-9dNYlyvsBkzMxa0cdPVboRXrlMo"
 X-Powered-By: Express
 
-{
-    "factors": [
-        [
+[
+    {
+        "factors": [
             2,
             5
         ],
-        [
+        "number": 10
+    },
+    {
+        "factors": [
             11
-        ]
-    ]
-}
+        ],
+        "number": 11
+    }
+]
 ```
 
 ## Request Format
@@ -65,10 +69,19 @@ X-Powered-By: Express
 ## Response Format
 
 ```json
-{
-  "factors": [
-    [2, 5],
-    [11]
-  ]
-}
+[
+    {
+        "factors": [
+            2,
+            5
+        ],
+        "number": 10
+    },
+    {
+        "factors": [
+            11
+        ],
+        "number": 11
+    }
+]
 ```
