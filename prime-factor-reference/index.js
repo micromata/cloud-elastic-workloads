@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.post('/', function (req, res) {
-  const result = req.body.input.map(function (input) {
+  const result = req.body.numbers.map(function (input) {
     return {
       number: input,
       factors: findPrimeFactors(input)

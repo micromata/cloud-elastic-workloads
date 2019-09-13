@@ -13,7 +13,7 @@ npm start
 ## Example Request
 
 ```sh
->>>> http -v POST :3000 input:='[10,11]'
+>>>> http -v POST :3000 numbers:='[10,11]'
 POST / HTTP/1.1
 Accept: application/json, */*
 Accept-Encoding: gzip, deflate
@@ -24,7 +24,7 @@ Host: localhost:3000
 User-Agent: HTTPie/1.0.2
 
 {
-    "input": [
+    "numbers": [
         10,
         11
     ]
@@ -59,7 +59,7 @@ X-Powered-By: Express
 
 ```json
 {
-  "input": [
+  "numbers": [
     10,
     11
   ]
