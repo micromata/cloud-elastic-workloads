@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ -z "$1" ] 
+then
+    echo "$0 <URL to endpoint>"
+    exit
+fi
+
 url=$1
 filename=numbers.txt
 
