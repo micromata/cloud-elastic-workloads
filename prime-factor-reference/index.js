@@ -9,6 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.post('/', function (req, res) {
+  console.log('Request received.');
   const result = req.body.numbers.map(function (input) {
     return {
       number: input,
